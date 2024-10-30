@@ -17,8 +17,8 @@ function App() {
 
   return (
     <Router>
-      <div className=" flex flex-col max-h-full w-full ">
-        <Header /> {/* Header is displayed on all routes */}
+      <div className="flex flex-col max-h-full w-full ">
+        <Header/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
